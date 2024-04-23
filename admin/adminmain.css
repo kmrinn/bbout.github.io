@@ -1,0 +1,123 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    padding-top: 20px;
+    display: flex;
+    height: 7vh;
+    width: 100%;
+    background-color: rgba(18, 38, 32, 1);
+    padding-bottom: 20px;
+    margin-left: 70px;
+}
+
+.tb{
+    display: flex;
+    width: 100%;
+    position: static;
+    height: 100%;
+    background-color: rgba(18, 38, 32, 1);
+
+}
+
+.menu li {
+    padding-top: 10px;
+    display: flex;
+    float: left;
+    margin-left: 70px;
+   
+   
+}
+
+.menu li a{
+    color: rgba(244, 235, 208, 1);
+    font-family: 'K2D', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 50px;
+    display: block;
+    height: 100%;
+    font-size: 20px;
+
+}
+
+.menu li a :hover{
+    color: rgba(182, 141, 64, 1);
+}
+
+.logo{
+   display: block;
+   margin-bottom: 40px;
+   max-height: 90%;
+   max-width: 100%
+   left: 90%;
+  }
+
+.search{
+   width: max-content;
+   display: flex;
+   align-items: center;
+   background: rgba(244, 235, 208, 1);
+   border-radius: 28px;
+}
+
+.search_input{
+    font-size: 12px;
+    font-family: 'K2D', sans-serif;
+    color: #333333;
+}
+
+.cart{
+    height: 40px;
+    width: 40px;
+    background-image: url(../images/icons8-add-basket-90.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover
+}
+
+.account{
+    height: 40px;
+    width: 40px;
+    background-image: url(../images/icons8-test-account-64.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover
+}
+
+.showcase{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(244, 235, 208, 1);
+}
+.box{
+    padding: 100px;
+}
+.login
+{
+    display: flex;
+    padding-top: 15px;
+   background-color: rgba(182, 141, 64, 1);
+   border-radius: 25px;
+    height: 400px;
+    width: 400px;
+    margin-left: 700px;
+}
+
+.logincss{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    margin-left: 50px;
+}   
+
+.logincss li{
+    list-style-type: none;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(18, 38, 32, 1);
+}

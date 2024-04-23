@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="shop.css" rel="stylesheet">
+    <title>Kalih Box Red Switches</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo">
+                <img src="../images/logo.png">
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="landing.html" class="link active">Home</a></li>
+                    <li><a href="buypage.html" class="link">Shop</a>
+                        <ul class="dropdown">
+                        <li><a href="#">Keyboards</a></li>
+                        <li><a href="#">Switches</a></li>
+                        <li><a href="#">Cases</a></li>
+                        <li><a href="#">Stabilizer</a></li>
+                        <li><a href="#">Lube</a></li>
+                    </ul>
+                </li>
+                    <li><a href="#" class="link">Services</a></li>
+                    <li><a href="#" class="link">About</a></li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="registerBtn" onclick="register()">Sign Up</button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        </div>
+
+    <div class="gallery-img-container">
+            <div class="showcase">
+                <div class="sc-imgs"><img src="../images/kalih-red-switches/Kailh-Red-Switch-35pcs_720x.webp"></div>
+                <div class="sc-imgs"><img src="../images/kalih-red-switches/Kailh-Red-Switch-Set_720x.webp"></div>
+                <div class="sc-imgs"><img src="../images/kalih-red-switches/Kailh-Red-Switches_720x.webp"></div>
+                <div class="sc-imgs"><img src="../images/kalih-red-switches/kailh-red-switch-force-travel-diagram-1666836014031.webp"></div>
+            </div>
+            <div class="popup-img">
+                <span>&times;</span>
+                <img src="../images/keyboard pic/lychee g66/image_2024-04-01_141535736.png">
+            </div>
+
+         <div class="prod-details">
+            <h1>KALIH BOX RED SWITCHES</h1>
+            <h2>₱1320.00</h2>
+            <ul>
+            <li class="pgh"> The Kailh switches are traditional mechanical switches that feature a pre-travel distance of 1.9mm <br> and a total travel distance of 4mm. Using the popular MX form, these Kailh switches provide you with<br> a brand-new feel without forcing you to let go of your favorite MX-style keycaps. </li>
+            </ul>
+         </div>   
+
+         <div class="buttons">
+            <a href="" class="btn">Add to cart + </a>
+         </div>
+
+         <div class="suggestion-container">
+         <h1 class="suggestion-title">SUGGESTIONS</h1>
+         <section class="suggestion">
+             <img src="../images/keyboard pic/monsgeek m1/image_2024-04-01_142351977.png" class="picture1">
+             <div class="image-text1">MONSGEEK M1</div>
+             <img src="../images/keyboard pic/weikav sugar65/image_2024-04-01_142548432.png" class="picture1">
+             <div class="image-text1">WEIKAV SUGAR 65</div>
+             <img src="../images/keyboard pic/akko 3068b/398360996_637509781632843_1739910527690349981_n.webp" class="picture1">
+             <div class="image-text1">AKKO 3086B</div>
+         </section>
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll('.showcase img').forEach(image=>{
+            image.onclick = () =>{
+            document.querySelector('.popup-img').style.display = 'block';
+            document.querySelector('.popup-img img').src = image.getAttribute('src');
+
+            }
+        });
+
+        document.querySelector('.popup-img span').onclick = () =>{
+            document.querySelector('.popup-img').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
