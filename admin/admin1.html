@@ -17,7 +17,7 @@
            
             <div class="nav-button">
                 <button class="btn white-btn" id="SignOutBtn" onclick="Signout()">Sign Out</button>
-               
+                <button class="btn white-btn" id="ReturnBtn" onclick="Return()">Return</button>
             </div>
             <div class="nav-menu-btn">
                 <i class="bx bx-menu" onclick="myMenuFunction()"></i>
@@ -63,7 +63,7 @@
                         <td>Data 5</td>
                         <td>Data 6</td>
                     </tr>
-                    <!-- Add more rows as needed -->
+                    
                 </tbody>
             </table>
         </div>
@@ -164,6 +164,10 @@
     function Signout() {
         // Redirect to another page
         window.location.href = "ADMINLOGIN.html"; // Replace "signin.html" with the desired URL
+    }
+    function Return() {
+        // Redirect to another page
+        window.location.href = "test.html"; // Replace "homepage.html" with the desired URL
     }
 </script>
 </body>
