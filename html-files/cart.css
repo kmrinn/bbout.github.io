@@ -67,6 +67,11 @@ tr {
     vertical-align: inherit;
     border-color: inherit;
 }
+.total-price table {
+  border-top: 3px solid white;
+  width: 100%;
+  max-width: 400px;
+}
 .total-price {
     display: flex;
     justify-content: flex-end;
