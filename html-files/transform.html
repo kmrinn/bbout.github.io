@@ -16,6 +16,7 @@
               <img src="../admin/logo.png">
           </div>
           <div class="nav-button">
+            <button class="btn white-btn" id="RETURNbtn" onclick="returnToHomePage()">Return</button>
             <button class="btn white-btn" id="HOMEbtn" onclick="home()">HOME</button>
         </div>
        
@@ -124,6 +125,10 @@
            // Redirect to another page
            window.location.href = "ADMINLOGIN.html"; // Replace "signin.html" with the desired URL
        }
+       function returnToHomePage() {
+            // Redirect to home page
+            window.location.href = "buypage.html";
+        }
    </script>
 </body>
 </html>
