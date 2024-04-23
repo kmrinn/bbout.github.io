@@ -400,7 +400,7 @@ ul li:hover ul.dropdown{
     display: grid;
     gap:30px;
     max-width: 1200px;
-    margin-left:auto;
+    margin-left:18rem;
     margin-right:auto;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -419,19 +419,6 @@ ul li:hover ul.dropdown{
     border-radius: 8px;
     margin-bottom: 15px;
     transition: transform 0.3s ease-in-out;
-}
-
-
-
-.card:nth-child(1) .kb-image-holder{
-    background-color:#000;
-}
-
-.card:nth-child(2) .kb-image-holder{
-    background-color:#000;
-}
-.card:nth-child(3) .kb-image-holder{
-    background-color:#000;
 }
 
 .card h3, .card p{
