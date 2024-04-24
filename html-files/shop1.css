@@ -192,7 +192,7 @@ ul li:hover ul.dropdown{
 }
 
 .gallery-img-container{
-    min-height:100vh;
+    min-height:30vh;
 }
 
 .gallery-img-container h1{
