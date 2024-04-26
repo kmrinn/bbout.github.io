@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="about.css" rel="stylesheet">
+    <title>Lychee G66</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo">
+                <img src="../images/logo.png">
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="landing.html" class="link active">Home</a></li>
+                    <li><a href="buypage.html" class="link">Shop</a>
+                        <ul class="dropdown">
+                        <li><a href="#">Keyboards</a></li>
+                        <li><a href="#">Switches</a></li>
+                        <li><a href="#">Cases</a></li>
+                        <li><a href="#">Stabilizer</a></li>
+                        <li><a href="#">Lube</a></li>
+                    </ul>
+                </li>
+                     <li><a href="index.html" class="link">Account</a></li>
+                    <li><a href="Contact.html" class="link">Contact Us</a></li>
+                    <li><a href="#" class="link">About</a></li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <div class="user-btn"><img src="../images/icons/account_circle.png"></div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        </div>
+        <div class="about-container">
+             <h1 class="abt-title">About Us</h1>
+             <div class="abt-content">
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut diam in sapien sodales euismod sit amet sed nisi. In et semper purus. Aenean vulputate quis nibh et sodales. Donec nibh enim, placerat faucibus vulputate at, ultricies vitae augue. Donec mollis ullamcorper libero, at vehicula diam gravida id. Cras risus lectus, posuere eu pharetra a, sollicitudin non augue. Curabitur aliquam nibh velit, eu blandit sapien mollis vitae. Vivamus mattis dapibus enim in porttitor. Mauris sed erat luctus, laoreet orci quis, tincidunt risus. Aenean egestas dapibus metus, non sodales tellus commodo vel. Sed feugiat ipsum diam, vel porttitor massa elementum ac.<br><br>
+                Nam molestie tellus eros, ac condimentum odio fringilla sit amet. Fusce diam arcu, convallis eu laoreet ac, mattis in metus. Fusce consectetur varius tellus, bibendum vulputate tellus viverra eu. Aliquam erat volutpat. Duis suscipit, nunc in rutrum placerat, nisi enim ullamcorper tellus, non posuere elit felis sit amet lorem. Quisque ullamcorper, ligula vitae blandit tempus, est elit molestie est, at iaculis arcu augue ut nisi. Proin venenatis finibus justo vel posuere.<br><br>
+                Etiam dictum, mauris quis volutpat fermentum, nunc tortor convallis sapien, a pharetra enim dolor sit amet nunc. Cras porta magna libero, sed elementum diam aliquet ut. Aenean sed rutrum massa, sed cursus turpis. Donec rutrum lectus quis nisi sodales, nec iaculis nibh feugiat. Integer odio enim, ultricies quis euismod vitae, bibendum eu felis. Duis vel fringilla orci. Fusce viverra lectus eget dignissim sodales. Suspendisse potenti. Sed ipsum lacus, rutrum sit amet lacus et, varius lacinia erat.
+            </p>
+            <a href="buypage.html" class="abt-btn">Go Shopping</a>
+            </div>
+          </div>
+    <footer>
+        <div class="footer-content">
+            <h3> BOUANG BOUTIQUE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2020 KMRI. designed by <span>Z&G</span></p>
+        </div>
+    </footer>
+    <script>
+        document.querySelectorAll('.showcase img').forEach(image=>{
+            image.onclick = () =>{
+            document.querySelector('.popup-img').style.display = 'block';
+            document.querySelector('.popup-img img').src = image.getAttribute('src');
+
+            }
+        });
+
+        document.querySelector('.popup-img span').onclick = () =>{
+            document.querySelector('.popup-img').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
