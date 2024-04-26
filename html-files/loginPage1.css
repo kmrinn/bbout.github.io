@@ -318,6 +318,14 @@ ul li:hover ul.dropdown{
     opacity: 1;
 }
 
+.category-text{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 ;
+    padding: 40px;
+}
+
 .category-boxes-item{
     display: flex;
     align-items: center;
@@ -395,6 +403,10 @@ ul li:hover ul.dropdown{
     opacity: 1; 
 }
 
+.card-containers{
+    height: 200vh;
+}
+
 .cards{
    padding-top: 150px;
     display: grid;
@@ -470,6 +482,10 @@ ul li:hover ul.dropdown{
     opacity: 1;
 }
 
+.price{
+    color: red;
+}
+
 .kb-image-holder{
     display: flex;
     justify-content: center;
@@ -486,7 +502,7 @@ ul li:hover ul.dropdown{
     color: white;
     position: absolute;
     top:0;
-    margin-top: 100px ;
+    margin-top: 250px ;
 }
 
 .gallery-img-container{
