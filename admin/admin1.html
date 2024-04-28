@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /> 
     <link href="TableAD.css" rel="stylesheet">
     <title>BOUANG | Login Page</title>
 </head>
@@ -14,14 +15,15 @@
             <div class="nav-logo">
                 <img src="../admin/logo.png" alt="">
             </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="test.html" class="link active"><i class="fas fa-user"></i>Dashboard</a></li>
+                    <li><a href="buypage.html" class="link"><i class="fas fa-cog"></i>Inventory</a>
+                     <li><a href="ADMINLOGIN.html" class="link"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+                </ul>
+            </div>
            
-            <div class="nav-button">
-                <button class="btn white-btn" id="SignOutBtn" onclick="Signout()">Sign Out</button>
-                <button class="btn white-btn" id="ReturnBtn" onclick="Return()">Return</button>
-            </div>
-            <div class="nav-menu-btn">
-                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
-            </div>
+           
         </nav>
         
         <div class="table1">
