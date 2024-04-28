@@ -633,7 +633,31 @@ ul li:hover ul.dropdown{
     color:white;
 }
 
+.login-selector{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding:300px;
+    align-items: center;
+}
 
+.login-selector h1 {
+    padding: 30px;
+}
+
+.login-selector a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    width:200px;
+    padding: 10px;
+}
+
+.login-selector a:hover{
+    background-color: #8b1919;
+}
 
 footer{
     position:relative;
